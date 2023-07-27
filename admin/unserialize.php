@@ -9,7 +9,7 @@ class w44m{
 
     public function nana(){
         if($this->admin === 'w44m' && $this->passwd ==='08067'){
-            shell_exec($lalala);
+            system($this->lalala);
         }else{
             echo $this->admin;
             echo $this->passwd;
